@@ -1,5 +1,5 @@
 # This is a simple workflow to help you get started with Actions
-name: first workflow
+name: second workflow
 
 # Controls when the workflow will run
 on: workflow_dispatch
