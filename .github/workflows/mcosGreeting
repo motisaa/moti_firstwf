@@ -1,5 +1,7 @@
-name: Greet workflow on MacOS
+# This is a simple workflow to help you get started with Actions
+name: third workflow
 
+# Controls when the workflow will run
 on: workflow_dispatch
 
 jobs:
@@ -7,7 +9,6 @@ jobs:
     runs-on: macos-latest
     steps:
       - name: Print Hello
-        run: echo "Hello World Action on MacOS"
-
+        run: echo "Hello World Action"
       - name: Print bye
         run: echo "bye bye"
